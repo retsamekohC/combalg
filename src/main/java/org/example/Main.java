@@ -2,13 +2,15 @@ package org.example;
 
 
 
-import org.example.task.yarnik_prim_dijkstra.Task1;
+import org.example.tasks.Task;
+import org.example.tasks.Task1;
+import org.example.tasks.Task2;
 
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        Task1 task1 = new Task1();
+        Task task1 = new Task2();
         try {
             String inputFileName = args[0];
             String outputFileName;

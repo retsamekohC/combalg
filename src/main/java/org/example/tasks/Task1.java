@@ -1,4 +1,8 @@
-package org.example.task.yarnik_prim_dijkstra;
+package org.example.tasks;
+
+
+import org.example.base.Edge;
+import org.example.base.Graph;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -6,7 +10,10 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Task1 {
+/**
+ * Поиск минимального остовного дерева алгоритмом Ярника-Прима-Дейкстры
+ */
+public class Task1 implements Task{
 
     public void doTask(String inputFileName, String outputFileName) throws IOException {
         Scanner input = new Scanner(Paths.get(inputFileName));
